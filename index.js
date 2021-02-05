@@ -5,7 +5,7 @@ const { MongoClient, ObjectId } = require('mongodb');
 (async () => {
     
 
-   const url = 'mongodb+srv://admin:K0EBlNnUcxpAh0Wh@cluster0.nf5ro.mongodb.net/ocean_db?retryWrites=true&w=majority';
+   const url = 'mongodb+srv://admin:<SENHA>@cluster0.nf5ro.mongodb.net/ocean_db?retryWrites=true&w=majority';
 
     const dbName = 'ocean_db';
 
